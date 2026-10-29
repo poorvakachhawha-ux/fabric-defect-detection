@@ -1,0 +1,22 @@
+image_path,true_label,predicted_label,confidence
+dataset/test/Defect free/defect-free-128-_jpg.rf.329e2912cb16f7965b2b653639492c9a.jpg,Defect free,Defected,0.628618
+dataset/test/Defect free/defect-free-137-_jpg.rf.04cdc2cae47c5559b48c5d42de6efb55.jpg,Defect free,Defected,0.899466
+dataset/test/Defect free/defect-free-15-_jpg.rf.1297a82d9da5a6c0fbd1e8ecca9bb027.jpg,Defect free,Defected,0.999962
+dataset/test/Defect free/defect-free-229-_jpg.rf.74ac4fc8c74b52eab9fc62f1bfaec7bc.jpg,Defect free,Defected,0.997645
+dataset/test/Defect free/defect-free-230-_jpg.rf.477ef49b7278fa3647225c3175794ee6.jpg,Defect free,Defected,0.999991
+dataset/test/Defect free/defect-free-231-_jpg.rf.20f14947d6fff3d24ddce6e6c0e981de.jpg,Defect free,Defected,0.997863
+dataset/test/Defect free/defect-free-27-_jpg.rf.c47da6a172cc3194f16f3b787f70c662.jpg,Defect free,Defected,0.999956
+dataset/test/Defect free/defect-free-28-_jpg.rf.bc4090e51abd26e3ec1611060a11a310.jpg,Defect free,Defected,0.999347
+dataset/test/Defect free/defect-free-49-_jpg.rf.069d70568d8c540a0788f308307b122f.jpg,Defect free,Defected,0.881682
+dataset/test/Defect free/defect-free-491-_jpg.rf.311560453a86a8bb8ee7318e128db164.jpg,Defect free,Defected,0.999985
+dataset/test/Defect free/defect-free-492-_jpg.rf.36d18abb4ee30b9e05538ab8863f72bc.jpg,Defect free,Defected,0.996189
+dataset/test/Defect free/defect-free-499-_jpg.rf.13eca80bf78979be83e7c6438042340c.jpg,Defect free,Defected,0.997400
+dataset/test/Defect free/defect-free-54-_jpg.rf.00bab62e6aedd3eb81165d2aa1ff8935.jpg,Defect free,Defected,0.612635
+dataset/test/Defected/Defected-1151-_jpg.rf.6cf09afaac3acca783ca2f06afa46e2a.jpg,Defected,Defect free,0.833212
+dataset/test/Defected/Defected-1176-_jpg.rf.d5bfc86b6f89ccb497d76853f58af405.jpg,Defected,Defect free,0.973485
+dataset/test/Defected/Defected-1192-_jpg.rf.dedabda67c181ea3d1e277a5bab40a3c.jpg,Defected,Defect free,0.543833
+dataset/test/Defected/Defected-1222-_jpg.rf.5bd8b084387f2e4e3e62f6e1fc995e3b.jpg,Defected,Defect free,0.635794
+dataset/test/Defected/Defected-1232-_jpg.rf.8dd0deb4ad5100471e6cce999bea14ca.jpg,Defected,Defect free,0.695817
+dataset/test/Defected/Defected-1263-_jpg.rf.60f81e1724b13b9b798dcd1f8f560b8e.jpg,Defected,Defect free,0.989368
+dataset/test/Defected/Defected-2426-_jpg.rf.82d6f413b5e3131ce4133a6bb1d0968f.jpg,Defected,Defect free,0.823591
+dataset/test/Defected/Defected-2434-_jpg.rf.5346dab2a32a166b799641591ce58dd3.jpg,Defected,Defect free,0.999323

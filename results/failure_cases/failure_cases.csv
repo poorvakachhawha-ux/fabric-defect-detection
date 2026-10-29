@@ -1,0 +1,12 @@
+image_name,true_label,roboflow_pred,roboflow_conf,pytorch_pred,pytorch_conf,wrong_in
+defect-free-137-_jpg.rf.04cdc2cae47c5559b48c5d42de6efb55.jpg,Defect free,Defect free,0.615800,Defected,0.899466,pytorch
+defect-free-15-_jpg.rf.1297a82d9da5a6c0fbd1e8ecca9bb027.jpg,Defect free,Defected,0.999900,Defected,0.999962,both
+defect-free-229-_jpg.rf.74ac4fc8c74b52eab9fc62f1bfaec7bc.jpg,Defect free,Defected,0.970500,Defected,0.997645,both
+defect-free-230-_jpg.rf.477ef49b7278fa3647225c3175794ee6.jpg,Defect free,Defected,0.987800,Defected,0.999991,both
+defect-free-231-_jpg.rf.20f14947d6fff3d24ddce6e6c0e981de.jpg,Defect free,Defected,0.958500,Defected,0.997863,both
+defect-free-27-_jpg.rf.c47da6a172cc3194f16f3b787f70c662.jpg,Defect free,Defected,0.994200,Defected,0.999956,both
+defect-free-28-_jpg.rf.bc4090e51abd26e3ec1611060a11a310.jpg,Defect free,Defected,0.995500,Defected,0.999347,both
+defect-free-49-_jpg.rf.069d70568d8c540a0788f308307b122f.jpg,Defect free,Defected,0.513700,Defected,0.881682,both
+defect-free-491-_jpg.rf.311560453a86a8bb8ee7318e128db164.jpg,Defect free,Defected,0.993600,Defected,0.999985,both
+defect-free-499-_jpg.rf.13eca80bf78979be83e7c6438042340c.jpg,Defect free,Defected,0.997100,Defected,0.997400,both
+defect-free-54-_jpg.rf.00bab62e6aedd3eb81165d2aa1ff8935.jpg,Defect free,Defect free,0.638200,Defected,0.612635,pytorch

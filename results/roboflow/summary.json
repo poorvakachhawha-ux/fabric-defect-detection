@@ -1,0 +1,8 @@
+{
+  "model_id": "sanya-mohanty/poorva-fabric-defect-detection-idm-2-1-resnet18-t1",
+  "images": 50,
+  "accuracy": 0.82,
+  "latency_ms_mean": 382.3594,
+  "latency_ms_median": 365.48,
+  "latency_ms_p95": 515.46
+}

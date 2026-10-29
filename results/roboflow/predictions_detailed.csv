@@ -1,0 +1,51 @@
+image_name,true_label,predicted_label,confidence,correct,latency_ms
+defect-free-49-_jpg.rf.069d70568d8c540a0788f308307b122f.jpg,Defect free,Defected,0.513700,0,526.73
+NDimage2__20260609120211_jpg.rf.8c7668658b86602a8b902a7198588713.jpg,Defected,Defected,1.000000,1,358.74
+waste-2-_jpg.rf.f568aecc8033d2d585c6120fccaea7fa.jpg,Waste,Waste,1.000000,1,360.58
+defect-free-147-_jpg.rf.450e5c0b4f7fd102d0cf14bf97798b97.jpg,Defect free,Defect free,0.726500,1,520.51
+DEFimage2__20260609111801_jpg.rf.b8a1fd76bae0831561e41a633e6e39b6.jpg,Defected,Defected,0.965500,1,380.38
+defect-free-110-_jpg.rf.0254a5fd92121c9d1ed61d995bf4ad40.jpg,Defect free,Defect free,0.798500,1,344.28
+NDimage2__20260609114928_jpg.rf.33ea717d3f5649cd43f92e0601d8464e.jpg,Defected,Defected,0.999900,1,355.50
+defect-free-27-_jpg.rf.c47da6a172cc3194f16f3b787f70c662.jpg,Defect free,Defected,0.994200,0,357.34
+Defected-2279-_jpg.rf.bc4a3f6d57d35d4dc87537bfe2b46a60.jpg,Defected,Defected,0.946600,1,408.63
+defect-free-231-_jpg.rf.20f14947d6fff3d24ddce6e6c0e981de.jpg,Defect free,Defected,0.958500,0,362.91
+Defected-2577-_jpg.rf.dcfd55de94d046236fc55936ba323054.jpg,Defected,Defected,0.995400,1,347.78
+defect-free-230-_jpg.rf.477ef49b7278fa3647225c3175794ee6.jpg,Defect free,Defected,0.987800,0,353.82
+DEFimage2__20260609112340_jpg.rf.ab40ab7e32a4c0458936c1b173e8d3d5.jpg,Defected,Defected,0.999900,1,376.26
+defect-free-15-_jpg.rf.1297a82d9da5a6c0fbd1e8ecca9bb027.jpg,Defect free,Defected,0.999900,0,365.27
+Defected-1826-_jpg.rf.018aa268aecc800208505a3eeb4fa94d.jpg,Defected,Defected,0.986000,1,374.49
+defect-free-137-_jpg.rf.04cdc2cae47c5559b48c5d42de6efb55.jpg,Defect free,Defect free,0.615800,1,364.66
+DEFimage2__20260609112103_jpg.rf.608aae87752ce6535e8ee94fcae1ec77.jpg,Defected,Defected,0.991300,1,392.18
+defect-free-421-_jpg.rf.8a99fd1cbea39af342b0bd0c29818135.jpg,Defect free,Defect free,0.946800,1,419.92
+Defected-2635-_jpg.rf.6b8b6bd5b2cada415d8b2111291cf606.jpg,Defected,Defected,0.840500,1,361.84
+defect-free-133-_jpg.rf.069920823bd3595907a007af13ec386a.jpg,Defect free,Defect free,0.802800,1,359.36
+Defected-1448-_jpg.rf.8b022df5b28f9c256ed7d77b1efc8ba2.jpg,Defected,Defected,0.998900,1,379.90
+defect-free-376-_jpg.rf.0f0bb00b666381888adfcf60e91ce1e3.jpg,Defect free,Defect free,0.891000,1,337.31
+NDimage2__20260609120449_jpg.rf.75b3ac0c846e9aaad4cd71632991c396.jpg,Defected,Defected,0.999900,1,377.59
+defect-free-111-_jpg.rf.b8af0fcc1a219422663b2fd0858ec8fe.jpg,Defect free,Defect free,0.871900,1,372.09
+Defected-513-_jpg.rf.463338aacd2c7470211644053b01efec.jpg,Defected,Defected,0.966000,1,356.23
+defect-free-54-_jpg.rf.00bab62e6aedd3eb81165d2aa1ff8935.jpg,Defect free,Defect free,0.638200,1,376.93
+Defected-468-_jpg.rf.c50c838183fe36fa5c2f73294f393a5a.jpg,Defected,Defected,0.997800,1,361.13
+defect-free-450-_jpg.rf.fdab0cb678cd92af37533de53d3307f9.jpg,Defect free,Defect free,0.959100,1,366.19
+Defected-1737-_jpg.rf.2b06f858bb56562cb6ac28b3075d5ee2.jpg,Defected,Defected,0.999700,1,351.49
+defect-free-229-_jpg.rf.74ac4fc8c74b52eab9fc62f1bfaec7bc.jpg,Defect free,Defected,0.970500,0,360.85
+Defected-298-_jpg.rf.c5e8a56e91bbc4cc2e89d3893ec568d6.jpg,Defected,Defected,0.986400,1,357.35
+defect-free-491-_jpg.rf.311560453a86a8bb8ee7318e128db164.jpg,Defect free,Defected,0.993600,0,401.78
+Defected-1119-_jpg.rf.65abf001f498b2f70cd4faeb56316a28.jpg,Defected,Defected,0.899300,1,353.39
+defect-free-259-_jpg.rf.2294d37125e48e7b7c5c4a7b55a50a23.jpg,Defect free,Defect free,0.933000,1,360.45
+Defected-921-_jpg.rf.8851f79071b1865ee1f50db415b55278.jpg,Defected,Defected,0.999000,1,391.98
+defect-free-28-_jpg.rf.bc4090e51abd26e3ec1611060a11a310.jpg,Defect free,Defected,0.995500,0,457.44
+DEFimage2__20260609112014_jpg.rf.f3a26b2d7c4752aa97b4edb6b7a93d1a.jpg,Defected,Defected,0.993800,1,474.43
+defect-free-101-_jpg.rf.46fbc7c83f122ce9915a62a694dcdd81.jpg,Defect free,Defect free,0.820100,1,354.27
+DEFimage2__20260609111804_jpg.rf.e24f3221ab4e5e2a379998b71f3dc6da.jpg,Defected,Defected,0.996500,1,365.69
+defect-free-499-_jpg.rf.13eca80bf78979be83e7c6438042340c.jpg,Defect free,Defected,0.997100,0,380.94
+Defected-724-_jpg.rf.bcdf778a2f2d4cbfdc27fa031af9ee8f.jpg,Defected,Defected,0.999100,1,515.46
+defect-free-457-_jpg.rf.e00378ce19bbb412e2185b0bbbfac166.jpg,Defect free,Defect free,0.942400,1,345.26
+Defected-1300-_jpg.rf.e410bd96aba5891a2e1faa7df4ca1898.jpg,Defected,Defected,0.999000,1,378.34
+defect-free-318-_jpg.rf.429dc84d8fe02489848690f171a38b86.jpg,Defect free,Defect free,0.929700,1,378.05
+NDimage2__20260609115405_jpg.rf.713aee64a26091b982eeac527c336732.jpg,Defected,Defected,0.998700,1,356.76
+defect-free-284-_jpg.rf.e176ac2d7c8a0a74f428e96c6f1e0401.jpg,Defect free,Defect free,0.983100,1,400.65
+Defected-1428-_jpg.rf.860df283f84da812ab5c4a20a078ca5a.jpg,Defected,Defected,0.959600,1,348.13
+defect-free-344-_jpg.rf.4762ee5aa0091c3a79eeb10412351f12.jpg,Defect free,Defect free,0.933900,1,362.23
+NDimage2__20260609122119_jpg.rf.00369e48bd8e810be1e026723928151d.jpg,Defected,Defected,0.993000,1,433.24
+defect-free-441-_jpg.rf.af9666a7b5251ad19a5fac7c4063ca84.jpg,Defect free,Defect free,0.961600,1,371.24

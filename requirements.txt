@@ -1,0 +1,7 @@
+roboflow
+inference-sdk
+torch
+torchvision
+scikit-learn
+pillow
+fpdf2

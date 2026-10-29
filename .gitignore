@@ -1,0 +1,8 @@
+dataset/
+.venv/
+__pycache__/
+.env
+*.pt
+results/failure_cases/*.jpg
+results/failure_cases/*.jpeg
+results/failure_cases/*.png
