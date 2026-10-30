@@ -109,7 +109,7 @@ def main() -> None:
             ("Test precision", "94.5%", "92.7% macro"),
             ("Test recall", "91.7%", "90.2% macro"),
             ("Test F1", "93.0%", "91.4% macro"),
-            ("Test accuracy", "see note below", "95.8% (476/497)"),
+            ("Accuracy on full test set (497)", "from confusion matrix", "95.8% (476/497)"),
             ("Accuracy on the same 50 images", "82% (41/50)", "78% (39/50)"),
             ("Training time", "from the training email", f"{train_min:.1f} min"),
             ("Mean latency on the 50", f"{roboflow['latency_ms_mean']:.0f} ms", f"{pytorch['eval_50']['latency_ms_mean']:.1f} ms"),
@@ -121,13 +121,14 @@ def main() -> None:
                 line.cell(value)
     pdf.ln(2)
     pdf.body(
-        "Read the two accuracy columns on the same footing. Roboflow's 94.5 / 91.7 / 93.0 figures "
-        "come from its model evaluation on the test split, taken at the 61% threshold. PyTorch has "
-        "no reject option: every image gets the class with the highest score, and the precision, "
-        "recall, and F1 above are macro averages, so each class counts equally. Under that rule the "
-        "PyTorch model scores 95.8% accuracy on all 497 test images. Most of that score is the "
-        "Defected class, which it recalls at 98.2% (441 of 449). Defect free recall is 72.3% "
-        "(34 of 47). The single Waste test image is correct, and one image is not evidence."
+        "The held-out test split is 497 images, the full 10% split, not a 500-image round number. "
+        "PyTorch predicts a class for every one of them and is correct on 476, which is 95.8% accuracy. "
+        "That score is mostly the Defected class: recall is 98.2% (441 of 449). Defect free recall is "
+        "72.3% (34 of 47). The single Waste image is correct, and one image is not evidence. "
+        "Roboflow's evaluation of this same 497-image split reports precision 94.5%, recall 91.7%, "
+        "and F1 93.0% at the 61% threshold. It does not print accuracy. Accuracy there is the "
+        "confusion-matrix diagonal divided by 497, and that figure still has to be copied into the table. "
+        "PyTorch precision, recall, and F1 in the table are macro averages, so each class counts equally."
     )
     pdf.body(
         "On the shared 50 images, Roboflow is correct on 41 and PyTorch on 39. The four-point gap "
