@@ -109,9 +109,9 @@ def main() -> None:
             ("Test precision", "94.5%", "92.7% macro"),
             ("Test recall", "91.7%", "90.2% macro"),
             ("Test F1", "93.0%", "91.4% macro"),
-            ("Accuracy on full test set (497)", "from confusion matrix", "95.8% (476/497)"),
+            ("Accuracy on full test set (497)", "96.4% (479/497)", "95.8% (476/497)"),
             ("Accuracy on the same 50 images", "82% (41/50)", "78% (39/50)"),
-            ("Training time", "from the training email", f"{train_min:.1f} min"),
+            ("Training time", "20 min", f"{train_min:.1f} min"),
             ("Mean latency on the 50", f"{roboflow['latency_ms_mean']:.0f} ms", f"{pytorch['eval_50']['latency_ms_mean']:.1f} ms"),
             ("Median latency on the 50", f"{roboflow['latency_ms_median']:.0f} ms", f"{pytorch['eval_50']['latency_ms_median']:.1f} ms"),
         ]
@@ -125,10 +125,12 @@ def main() -> None:
         "PyTorch predicts a class for every one of them and is correct on 476, which is 95.8% accuracy. "
         "That score is mostly the Defected class: recall is 98.2% (441 of 449). Defect free recall is "
         "72.3% (34 of 47). The single Waste image is correct, and one image is not evidence. "
-        "Roboflow's evaluation of this same 497-image split reports precision 94.5%, recall 91.7%, "
-        "and F1 93.0% at the 61% threshold. It does not print accuracy. Accuracy there is the "
-        "confusion-matrix diagonal divided by 497, and that figure still has to be copied into the table. "
-        "PyTorch precision, recall, and F1 in the table are macro averages, so each class counts equally."
+        "Roboflow's confusion matrix on this same 497-image split has 36 Defect free, 442 Defected, "
+        "and 1 Waste on the diagonal, which is 479 correct and 96.4% accuracy. Ten Defect free images "
+        "are called Defected, six Defected images are called Defect free, and two images fall below "
+        "the confidence threshold, one from each of those classes. At the 61% threshold Roboflow "
+        "reports precision 94.5%, recall 91.7%, and F1 93.0%. PyTorch precision, recall, and F1 in "
+        "the table are macro averages, so each class counts equally."
     )
     pdf.body(
         "On the shared 50 images, Roboflow is correct on 41 and PyTorch on 39. The four-point gap "
@@ -145,11 +147,10 @@ def main() -> None:
         f"calling the API. The local number is the cost of running the network beside the camera."
     )
     pdf.body(
-        f"PyTorch training took {train_min:.1f} minutes for 15 epochs, about 77 seconds per epoch, "
-        "on a laptop GPU. Roboflow does not write its training duration into the exported metrics. "
-        "The duration is on the training job, or in the completion email, and that value should be "
-        "entered in the table above before the report is submitted. The hosted job used Roboflow's "
-        "default recipe. The local job used the learning rate, batch size, and epoch count in section 2."
+        f"The Roboflow ResNet-18 training job took 20 minutes. PyTorch training took {train_min:.1f} "
+        f"minutes for 15 epochs, about 77 seconds per epoch, on a laptop GPU. The hosted job used "
+        f"Roboflow's default recipe. The local job used the learning rate, batch size, and epoch "
+        f"count in section 2."
     )
 
     pdf.add_page()
@@ -201,7 +202,8 @@ def main() -> None:
         "The two ResNet-18 trainings land in the same place on accuracy. Roboflow's published test "
         "F1 is 93.0%, and the PyTorch macro F1 is 91.4%. On the 50 shared images Roboflow is two "
         "images ahead, 82% against 78%. The local model answers in about 11 ms, against about 382 ms "
-        "for the hosted API, and it trained in 19.2 minutes on a laptop. The errors are concentrated "
+        "for the hosted API. Roboflow trained in 20 minutes, and the local run took 19.2 minutes "
+        "on a laptop. The errors are concentrated "
         "on one boundary: smooth Defected swatches and textured Defect free swatches. More images "
         "in Defect free and Waste, and a pass over the labels where those two classes look alike, "
         "would change the result more than a larger network would."
